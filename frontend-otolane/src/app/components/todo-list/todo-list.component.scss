@@ -1,0 +1,20 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .todo-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-details span {
+    margin-right: 300px; /* Add space between title and description */
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
